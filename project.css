@@ -1,0 +1,102 @@
+
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Matrix Container */
+.matrix-container {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.matrix-container label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #34495e;
+}
+
+.matrix-container input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  color: #34495e;
+}
+
+.matrix-container input:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+
+
+button:hover {
+  background-color: #3498db;
+}
+
+button:active {
+  background-color: #2980b9;
+}
+
+/* Matrix Input Section */
+#matrix-inputs {
+  margin-top: 30px;
+}
+
+.steps-output, .output {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.steps-output h3, .output h3 {
+  font-size: 1.6em;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+/* Add Icons to Buttons */
+button::before {
+  content: '\1F4C4'; /* Icon for document */
+  margin-right: 10px;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2em;
+  }
+
+  .matrix-container, .steps-output, .output {
+      width: 90%;
+  }
+}
+
+
+.generate-button{
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 250px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
